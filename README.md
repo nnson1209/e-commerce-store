@@ -37,7 +37,7 @@ CLIENT_URL=http://localhost:5173
 NODE_ENV=production
 ```
 
-### Run this app locally
+### Build the application
 
 ```shell
 npm run build
@@ -48,3 +48,16 @@ npm run build
 ```shell
 npm run start
 ```
+
+## Testing
+To test the application, you can use the following login credentials:
+* Customer:
+	+ Email: `abc@gmail.com`
+	+ Password: `123456`
+* Admin:
+	+ Email: `john@gmail.com`
+	+ Password: `123456`
+
+Please note that these credentials are only for testing purposes and should not be used in production.
+
+After logging in, you can test the admin role by accessing the admin dashboard and verifying that you have the expected permissions.
